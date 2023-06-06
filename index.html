@@ -3,7 +3,7 @@
 
 <head>
   <meta charset="UTF-8" />
-  <title>Pagina inicial</title>
+  <title>Todos os Remédios</title>
   <link rel="stylesheet" href="style.css" />
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -13,105 +13,147 @@
 
 <body>
   <header>
-    <img src="/img/logo.png" alt="/Logo da Farmácia" width="160px" />
-    <h1 id="titulo">Pharmacy inHouse</h1>
+    <img  id="logo" src="/img/logo.png" alt="/Logo da Farmácia" width="160px" />
+    <h1 id="logoEscrito">Pharmacy inHouse</h1>
     <nav>
       <a href="index.html">Todos os remédios</a>
       <a href="">Sobre nós</a>
       <a href="contato.html">Fale Conosco</a>
     </nav>
   </header>
-  <main>
-    <h1>Lista de Remédios</h1>
+  <h1 id="titulo" >Lista de Remédios</h1>
+  <main id="container">
+  
 
-    <div class="remedio1">
-      <img src="https://precopopular.vteximg.com.br/arquivos/ids/183480-1000-1000/30495_0.jpg?v=637806088115400000"
+    <div class="card">
+      <img class="imgRemedio" src="https://precopopular.vteximg.com.br/arquivos/ids/183480-1000-1000/30495_0.jpg?v=637806088115400000"
         alt="Neosaldina">
-      <h3>NEOSALDINA DIPIRONA 300MG + MUCATO DE ISOMETEPTENO 30MG + CAFEÍNA 30MG 20 COMPRIMIDOS</h3>
-      <i class="material-icons">favorite</i>
+       
+      <h3 class="nomeRemedio">NEOSALDINA DIPIRONA 300MG </h3>
+      
       <p class="valor">R$ 21,90</p>
+      
+       <i class="material-icons heart">favorite</i>
+
       <button style="font-size:24px">Adicionar<i class="material-icons">add_shopping_cart</i></button>
     </div>
 
-    <div class="remedio2">
-      <img src="https://precopopular.vteximg.com.br/arquivos/ids/183715-400-400/726880_0.jpg?v=637806271221000000"
+    <div class="card">
+      <img class="imgRemedio" src="https://precopopular.vteximg.com.br/arquivos/ids/183715-400-400/726880_0.jpg?v=637806271221000000"
         alt="engov">
-      <h3>ENGOV COM 24 COMPRIMIDOS</h3>
-      <i class="material-icons">favorite</i>
+       
+      <h3 class="nomeRemedio">ENGOV COM 24 COMPRIMIDOS</h3>
+      
       <p class="valor">R$ 16,90</p>
+      
+       <i class="material-icons heart">favorite</i>
+
       <button style="font-size:24px">Adicionar<i class="material-icons">add_shopping_cart</i></button>
     </div>
 
-    <div class="remedio3">
-      <img src="https://precopopular.vteximg.com.br/arquivos/ids/183626-400-400/31459_0.jpg?v=637806245448600000"
+    <div class="card">
+      <img class="imgRemedio" src="https://precopopular.vteximg.com.br/arquivos/ids/183626-400-400/31459_0.jpg?v=637806245448600000"
         alt="novalgina">
-      <h3>NOVALGINA XAROPE 100ML</h3>
-      <i class="material-icons">favorite</i>
+       
+      <h3 class="nomeRemedio">NOVALGINA XAROPE 100ML</h3>
+      
       <p class="valor">R$ 37,43</p>
+      
+       <i class="material-icons heart">favorite</i>
+
       <button style="font-size:24px">Adicionar<i class="material-icons">add_shopping_cart</i></button>
     </div>
 
-    <div class="remedio4">
-      <img src="https://precopopular.vteximg.com.br/arquivos/ids/196015-400-400/732595_0.jpg?v=638024030818930000"
+    <div class="card">
+      <img class="imgRemedio" src="https://precopopular.vteximg.com.br/arquivos/ids/196015-400-400/732595_0.jpg?v=638024030818930000"
         alt="lisador">
-      <h3>LISADOR DIP 1G 20 COMPRIMIDOS</h3>
-      <i class="material-icons">favorite</i>
-      <p class="valor">27,90</p>
+       
+      <h3 class="nomeRemedio">LISADOR DIP 1G 20 COMPRIMIDOS</h3>
+      
+      <p class="valor">R$ 27,90</p>
+      
+       <i class="material-icons heart">favorite</i>
+
       <button style="font-size:24px">Adicionar<i class="material-icons">add_shopping_cart</i></button>
     </div>
 
-    <div class="remedio5">
-      <img src="https://precopopular.vteximg.com.br/arquivos/ids/172575-400-400/686723.jpg?v=637967865338530000"
+    <div class="card">
+      <img class="imgRemedio" src="https://precopopular.vteximg.com.br/arquivos/ids/172575-400-400/686723.jpg?v=637967865338530000"
         alt="doralgina">
-      <h3>DORALGINA COM 20 DRÁGEAS</h3>
-      <i class="material-icons">favorite</i>
+       
+      <h3 class="nomeRemedio">DORALGINA COM 20 DRÁGEAS</h3>
+      
       <p class="valor">R$ 9,99</p>
+      
+       <i class="material-icons heart">favorite</i>
+
       <button style="font-size:24px">Adicionar<i class="material-icons">add_shopping_cart</i></button>
     </div>
 
-    <div class="remedio6">
-      <img src="https://precopopular.vteximg.com.br/arquivos/ids/197826-400-400/508367_0.jpg?v=638064632766670000"
+    <div class="card">
+      <img class="imgRemedio" src="https://precopopular.vteximg.com.br/arquivos/ids/197826-400-400/508367_0.jpg?v=638064632766670000"
         alt="sonrisal">
-      <h3>Sonrisal (GSK)</h3>
-      <i class="material-icons">favorite</i>
+       
+      <h3 class="nomeRemedio">Sonrisal (GSK)</h3>
+      
       <p class="valor">R$ 8,99</p>
+      
+       <i class="material-icons heart">favorite</i>
+
       <button style="font-size:24px">Adicionar<i class="material-icons">add_shopping_cart</i></button>
     </div>
 
-    <div class="remedio7">
-      <img src="https://precopopular.vteximg.com.br/arquivos/ids/183580-400-400/700121_0.jpg?v=637806150767630000"
+    <div class="card">
+      <img class="imgRemedio" src="https://precopopular.vteximg.com.br/arquivos/ids/183580-400-400/700121_0.jpg?v=637806150767630000"
         alt="doril">
-      <h3>DORIL COM 6 COMPRIMIDOS</h3>
-      <i class="material-icons">favorite</i>
+       
+      <h3 class="nomeRemedio">DORIL COM 6 COMPRIMIDOS</h3>
+      
       <p class="valor">R$ 8,32</p>
+      
+       <i class="material-icons heart">favorite</i>
+
       <button style="font-size:24px">Adicionar<i class="material-icons">add_shopping_cart</i></button>
     </div>
 
-    <div class="remedio8">
-      <img src="https://conteudo.imguol.com.br/c/entretenimento/bf/2022/06/24/toragesic-1656097448098_v2_800x1504.jpg"
+    <div class="card">
+      <img class="imgRemedio" src="data:image/jpeg;base64,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"
         alt="Toragesic">
-      <h3>TORAGESIC SL 10MG COM 10 COMPRIMIDOS (EMS)</h3>
-      <i class="material-icons">favorite</i>
+       
+      <h3 class="nomeRemedio">TORAGESIC SL 10MG COM 10 COMPRIMIDOS (EMS)</h3>
+      
       <p class="valor">R$ 37,02</p>
+      
+       <i class="material-icons heart">favorite</i>
+
       <button style="font-size:24px">Adicionar<i class="material-icons">add_shopping_cart</i></button>
     </div>
 
-    <div class="remedio9">
-      <img src="https://precopopular.vteximg.com.br/arquivos/ids/197470-1000-1000/717873.jpg?v=638060971273530000"
+    <div class="card">
+      <img class="imgRemedio" src="https://precopopular.vteximg.com.br/arquivos/ids/197470-1000-1000/717873.jpg?v=638060971273530000"
         alt="dipirona">
-      <h3>DIPIRONA NEO QUÍMICA 1G COM 10 COMPRIMIDOS</h3>
-      <i class="material-icons">favorite</i>
+       
+      <h3 class="nomeRemedio">DIPIRONA NEO QUÍMICA 1G COM 10 COMPRIMIDOS</h3>
+      
       <p class="valor">R$ 12,76</p>
+      
+       <i class="material-icons heart">favorite</i>
+
       <button style="font-size:24px">Adicionar<i class="material-icons">add_shopping_cart</i></button>
     </div>
 
-    <div class="remedio10">
+    <div class="card">
       <img
+      class="imgRemedio"
         src="https://precopopular.vteximg.com.br/arquivos/ids/198818-400-400/7896212422517_2.jpg?v=638088893661630000"
         alt="TYLENOL">
-      <h3>TYLENOL 750MG COM 20 COMPRIMIDOS</h3>
-      <i class="material-icons">favorite</i>
+       
+      <h3 class="nomeRemedio">TYLENOL 750MG COM 20 COMPRIMIDOS</h3>
+      
       <p class="valor">R$ 36,03</p>
+      
+       <i class="material-icons heart">favorite</i>
+
       <button style="font-size:24px">Adicionar<i class="material-icons">add_shopping_cart</i></button>
     </div>
     </ul>

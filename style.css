@@ -1,15 +1,18 @@
-:root{
-    --green:#009e3d;
+:root {
+    --green: #009e3d;
 }
-*{
+
+* {
     margin: 0;
     border: 0;
 }
-img{
+
+.logo {
     width: 210px;
 
 }
-#titulo{
+
+#logoEscrito {
     font-family: 'Satisfy', cursive;
     position: absolute;
     color: black;
@@ -19,45 +22,121 @@ img{
     width: max-content;
     font-size: 9vh;
 }
-header{
-        position: relative;
-        background-color: #88df55;
-        border-radius: 8px;
-        width: 100%;
+#titulo{
+    color: #1e6340;
+    text-align: center;
+    background-color: thistle;
+    width: 75%;
+    position: relative;
+    left: 15%;
+
 }
-nav{
-    display: inline;
-    position: absolute;
-    top: 75%;
-    left: 50%;
-    transform: translateX(-50%);
-    width: max-content
-}
-nav a{
-    background-color: var(--green);
+
+header {
+    position: relative;
+    background-color: #88df55;
     border-radius: 8px;
-    font-size: 2rem;
+    width: 100%;
+}
+
+nav {
+    
+    text-align: center;
+}
+
+nav a {
+    background-color: var(--green);
+    border-radius: 21px;
+    font-size: 1.8rem;
     text-decoration: none;
-    color: white;
     padding: 8px;
     margin: 0.5rem;
-    color: black;
+    position: relative;
+    top: -33px;
+    transition: linear 1s;
+    font-family: 'Times New Roman', Times, serif;
 
 }
+
 
 nav a:hover {
-
     font-size: 2.5rem;
 }
-nav a:visited{
-    background-color: #1e6340;
-    color: white;
-}
 
-nav a:active{
-
+nav a:visited {
     background-color: white;
-    color: #009e3d;
+    color: var(--green);
 }
 
+nav a:active {
+    transition: 0s;
+    background-color: var(--green);
+    color: black;
+}
 
+#container {
+    background-color: thistle;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    width: 75%;
+    height: 817px;
+    position: relative;
+    left: 15%;
+
+}
+
+.card {
+    position: relative;
+    background-color: #009e3d;
+    width: 18%;
+    height: 44%;
+    display: block;
+    border-radius: 8px;
+
+}
+
+.heart {
+    color: red;
+    position: relative;
+    text-align: right;
+
+
+}
+
+.imgRemedio{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 91%;
+    position: relative;
+    top: 5px;
+}
+button{
+    border-radius: 16px;
+    position: relative;
+    color: gray;
+    top: 5%;
+    width: 93%;
+    margin: 0 0 0 0.5rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.nomeRemedio{
+    border: #009e3d;
+    text-align: center;
+    position: relative;
+    top: 10px;
+    height: 27%;
+
+}
+.valor{
+    display: inline;
+    color: white;
+    text-align: left;
+    margin: 0px 54px 0px 3px;
+}
