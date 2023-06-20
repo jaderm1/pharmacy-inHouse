@@ -1,13 +1,16 @@
 <!DOCTYPE html>
 <html lang="pt_br">
   <head>
-    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/contato.css" />
     <meta charset="UTF-8" />
     <title>Contato</title>
   </head>
   <body>
     <header>
       <img src="/img/logo.png" alt="/Logo da Farmácia" width="160px" />
+      <h1 id="logoEscrito">Pharmacy inHouse</h1>
+
       <nav>
         <a href="index.html">Todos os remédios</a>
         <a href="">Sobre nós</a>
@@ -16,7 +19,7 @@
       </nav>
     </header>
     <main>
-      <h1>Fale Conosco</h1>
+      <h1 id="fale_conosco">Fale Conosco</h1>
       <form action="" method="get">
         <label for="nome">Nome</label>
         <input type="text" id="nome" />
@@ -35,8 +38,10 @@
 
         <label for="msg">Mensagem:</label>
         <textarea name="" id="msg" cols="30" rows="10"></textarea>
-        <label for="checkbox">Esta mensagem é sobre orçamento?</label>
+        <label for="checkbox">Esta mensagem é sobre orçamento?
           <input type="checkbox" name="orcamento" id="orcamento">
+        </label>
+          
         <input type="submit" value="Enviar">
       </form>
     </main>

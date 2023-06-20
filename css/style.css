@@ -1,5 +1,7 @@
 :root {
     --green: #009e3d;
+
+    --lightgreen: #88df55;
 }
 
 * {
@@ -20,12 +22,12 @@
     left: 50%;
     transform: translateX(-50%);
     width: max-content;
-    font-size: 9vh;
+    font-size: 8vh;
 }
 #titulo{
     color: #1e6340;
     text-align: center;
-    background-color: thistle;
+    background-color: lightgray;
     width: 75%;
     position: relative;
     left: 15%;
@@ -34,7 +36,7 @@
 
 header {
     position: relative;
-    background-color: #88df55;
+    background-color: var(--lightgreen);
     border-radius: 8px;
     width: 100%;
 }
@@ -75,13 +77,13 @@ nav a:active {
 }
 
 #container {
-    background-color: thistle;
+    background-color: lightgray;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-around;
     align-items: center;
     width: 75%;
-    height: 817px;
+    height: 110vh;
     position: relative;
     left: 15%;
 
