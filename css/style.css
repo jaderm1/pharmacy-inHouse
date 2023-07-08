@@ -7,74 +7,57 @@
 * {
     margin: 0;
     border: 0;
+    list-style: none;
 }
 
-.logo {
-    width: 210px;
 
-}
 
 #logoEscrito {
     font-family: 'Satisfy', cursive;
-    position: absolute;
     color: black;
-    top: 29px;
-    left: 50%;
-    transform: translateX(-50%);
-    width: max-content;
-    font-size: 8vh;
+    font-size: 2rem;
 }
 #titulo{
     color: #1e6340;
     text-align: center;
-    background-color: lightgray;
-    width: 75%;
-    position: relative;
-    left: 15%;
 
 }
 
-header {
-    position: relative;
+.header {
     background-color: var(--lightgreen);
-    border-radius: 8px;
-    width: 100%;
 }
 
-nav {
+.nav-item {
     
     text-align: center;
 }
 
-nav a {
+.nav-item a {
     background-color: var(--green);
     border-radius: 21px;
-    font-size: 1.8rem;
     text-decoration: none;
     padding: 8px;
     margin: 0.5rem;
-    position: relative;
-    top: -33px;
     transition: linear 1s;
     font-family: 'Times New Roman', Times, serif;
+    font-size: 1.5rem;
 
 }
 
 
-nav a:hover {
-    font-size: 2.5rem;
+.nav-item a:hover {
+    transition: linear 0.5s;
+    font-size: 1.7rem;
+
 }
 
-nav a:visited {
-    background-color: white;
+
+.nav-item a:visited {
+    background-color: whitesmoke;
     color: var(--green);
 }
 
-nav a:active {
-    transition: 0s;
-    background-color: var(--green);
-    color: black;
-}
+
 
 #container {
     background-color: lightgray;
