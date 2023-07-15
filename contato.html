@@ -54,7 +54,8 @@
       </nav>
    
     </header>
-    <form class="justify-content-center">
+    <div class="container" ></div>
+    <form class="justify-content-center ">
       <div class="form-group">
         <label for="email">Insira o seu endereço de Email</label>
         <input type="email" class="form-control" id="email" aria-describedby="emailHelp" placeholder="example@123.com" required>
@@ -68,11 +69,26 @@
           <input type="tel" class="form-control"  id="tel" placeholder="(DD) numero" required >
         
       </div>
-      <div class="form-check">
+
+
+      <div class="form-group">
+        <label for="assunto">Selecione um assunto:</label>
+        <select class="form-control" id="assunto" required>
+          <option>Financeiro</option>
+          <option>Farmacêutico</option>
+          <option>Entrega</option>
+          <option>Cancelamentos</option>
+
+      </div>
+      <div class="form-check form-check-inline">
         <input type="checkbox" class="form-check-input" id="orcamento">
         <label class="form-check-label" for="orcamento">Esta mensagem é sobre orçamento?</label>
       </div>
-      <button type="submit" class="btn btn-outline-success">Submit</button>
+      
+        <label for="msg">Mensagem:</label>
+        <textarea class="form-control" id="msg" rows="3" required></textarea>
+    </div>
+      <button type="submit" class="btn btn-success">Enviar</button>
     </form>
 
 
