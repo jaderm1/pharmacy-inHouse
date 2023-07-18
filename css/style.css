@@ -56,3 +56,7 @@
     background-color: whitesmoke;
     color: var(--green);
 }
+
+.heart{
+    color: red;
+}
