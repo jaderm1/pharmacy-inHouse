@@ -7,7 +7,8 @@ const botaoAdicionar = document.querySelectorAll('.botaoAdicionar')
 
 botaoAdicionar.forEach((botao) => {
     botao.addEventListener('click', () => {
-        console.log(botao.parentElement.parentElement.children[1].innerText)
+        console.log(botao.parentElement.children[0].innerText + ' ' + botao.parentElement.children[1].innerText)
+
         alert('Medicamento adicionado ao carrinho')
     })
 })
