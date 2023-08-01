@@ -67,8 +67,12 @@ listaDeRemedios.innerHTML += `<div class="card  bg-light mb-3 border-success"  s
 
   <p class="card-price">${item.valor}</p>
 
-  <i class="material-icons heart">favorite</i>
+  <button id='btn' class='botaoFavoritar btn btn-outline-danger'>
+  <span class="material-symbols-outlined">
+favorite
+</span>
 
+  </button>
   <button  class=" botaoAdicionar  btn btn-outline-success">Adicionar<i class="material-icons">add_shopping_cart</i></button>
 </div>
 </div>`})

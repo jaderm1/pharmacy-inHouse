@@ -5,10 +5,20 @@
 
 const botaoAdicionar = document.querySelectorAll('.botaoAdicionar')
 
+var carrinho = []
+
 botaoAdicionar.forEach((botao) => {
     botao.addEventListener('click', () => {
-        console.log(botao.parentElement.children[0].innerText + ' ' + botao.parentElement.children[1].innerText)
-
         alert('Medicamento adicionado ao carrinho')
+
+    carrinho.push(botao.parentElement.children[0].innerText)
+
+    
+    console.log(botao.parentElement.children[0].innerText+' Adicionado ao carrinho'+ ' Lista de medicamentos : '+carrinho)
+
+       
     })
 })
+
+
+// console.log(carrinho)
