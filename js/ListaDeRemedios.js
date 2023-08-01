@@ -69,6 +69,6 @@ listaDeRemedios.innerHTML += `<div class="card  bg-light mb-3 border-success"  s
 
   <i class="material-icons heart">favorite</i>
 
-  <button class="btn btn-outline-success">Adicionar<i class="material-icons">add_shopping_cart</i></button>
+  <button  class=" botaoAdicionar  btn btn-outline-success">Adicionar<i class="material-icons">add_shopping_cart</i></button>
 </div>
 </div>`})
