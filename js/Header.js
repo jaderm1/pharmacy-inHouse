@@ -46,11 +46,16 @@ menus.map((item) => {
   
   nav.innerHTML += `
   <li class="nav-item ">
-   <a class="nav-link" href="${item.index}" class="nav-link">${item.menu}</a>
+   <a class="nav-link bg-white text-success" href="${item.index}" class="nav-link">${item.menu}</a>
  </li>
  `
 
  })
+
+
+
+
+
 
 
 

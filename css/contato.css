@@ -4,9 +4,7 @@
     --lightgreen: #88df55;
 }
 
-form{
-    background-color: var(--lightgreen);
-}
+
 
 form input{
     width: 100%;

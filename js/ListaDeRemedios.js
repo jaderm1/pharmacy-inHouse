@@ -58,7 +58,7 @@ const listaDeRemedios = document.getElementById('listaDeRemedios')
 
 
 remedios.map((item) => {
-listaDeRemedios.innerHTML += `<div class="card  bg-light mb-3 border-success"  style="max-width: 18rem;">
+listaDeRemedios.innerHTML += `<div class="card mb-3 border-success"  style="max-width: 18rem;">
 <img class="card-img-top"
   src="${item.img}">
   <div class="card-body">
@@ -67,7 +67,7 @@ listaDeRemedios.innerHTML += `<div class="card  bg-light mb-3 border-success"  s
 
   <p class="card-price">${item.valor}</p>
 
-  <button id='btn' class='botaoFavoritar btn btn-outline-danger'>
+  <button class='botaoFavoritar btn btn-outline-danger'>
   <span class="material-symbols-outlined">
 favorite
 </span>
@@ -76,3 +76,6 @@ favorite
   <button  class=" botaoAdicionar  btn btn-outline-success">Adicionar<i class="material-icons">add_shopping_cart</i></button>
 </div>
 </div>`})
+
+
+
