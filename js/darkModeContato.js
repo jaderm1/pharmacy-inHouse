@@ -5,7 +5,6 @@ const input = document.querySelectorAll('.form-control');
 
 
  darkBtnContato.addEventListener('click', () => {
-    alert('teste')
     input.forEach((item) => {
          item.classList.toggle('bg-dark');
          item.classList.toggle('text-white');
