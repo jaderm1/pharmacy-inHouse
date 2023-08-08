@@ -21,16 +21,21 @@
 </head>
 <body>
     
-    <div class="container text-success ">
-    <h1 id="titulo">Formulário de Login</h1>
-    <form>
+  <div class=" border border-success container text-success w-25 p-3 mt-5">
+    <h1 id="titulo">Login</h1>
+    <form id="loginForm">
+        <div class="form-group">
         <label for="email">Email:</label>
-        <input type="email" id="email" placeholder="Digite seu email">
+        <input class="form-control"  type="email" id="email" placeholder="Digite seu email">
+    </div>
+    <div class="form-group">
         <label for="senha">Senha:</label>
-        <input type="password" name="senha" id="senha"placeholder="Digite sua senha">
-        <button type="submit">Acessar</button>
+        <input class="form-control"  type="password" name="senha" id="senha"placeholder="Digite sua senha">
+    </div>
+        <button  class="btn btn-success" type="submit">Acessar</button>
     </form>
 </div>
     <script src="./js/dados.js"></script>
+    <script src="./js/login.js"></script>
 </body>
 </html>

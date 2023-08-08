@@ -1,5 +1,3 @@
-
-// nome do arquivo - dados.js
 const dadosUsuario = `
   [
     {
@@ -8,10 +6,14 @@ const dadosUsuario = `
       "senha" : 1234
     },
     {
-
-"nome": "Jader",
-"email": "jaderm1@gmail.com"
-"senha" : "1234"
-}
+      "nome": "Jader",
+      "email": "jaderm1@email.com",
+      "senha" : "1234"
+    },
+    {
+      "nome": "Jose",
+      "email": "jose2@email.com",
+      "senha" : "qwerty"
+    }
   ]
 `
